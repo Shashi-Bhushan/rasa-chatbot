@@ -1,0 +1,38 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+gevent = "==1.2.2"
+klein = "==17.10.0"
+hyperlink = "==17.3.1"
+boto3 = "==1.5.20"
+typing = "==3.6.2"
+future = "==0.16.0"
+six = "==1.11.0"
+jsonschema = "==2.6.0"
+matplotlib = "==2.1.0"
+requests = "==2.18.4"
+tqdm = "==4.19.5"
+numpy = "==1.14.4"
+simplejson = "==3.13.2"
+cloudpickle = "==0.5.2"
+msgpack-python = "==0.5.4"
+coloredlogs = "==10.0"
+spacy = "==2.0.11"
+scikit-learn = "==0.19.1"
+scipy = "==1.1.0"
+sklearn-crfsuite = "==0.3.6"
+tensorflow = "==1.8.0"
+duckling = "==1.8.0"
+jieba = "==0.39"
+PyYAML = "==3.12"
+JPype1 = "==0.6.2"
+rasa-nlu = "==0.12.3"
+rasa-core = "==0.10.1"
+
+[requires]
+python_version = "3.6"
