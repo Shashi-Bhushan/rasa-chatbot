@@ -10,6 +10,12 @@
         "pattern": "hey[^\\s]*"
       }
     ],
+    "lookup_tables": [
+      {
+        "name": "city",
+        "elements": "data/cities.csv"
+      }
+    ],
     "entity_synonyms": [
       {
         "value": "chinese",
@@ -270,14 +276,14 @@
         ]
       },
       {
-        "text": "in London",
+        "text": "in [Kanpur](city)",
         "intent": "restaurant_search",
         "entities": [
           {
-            "start": 3,
-            "end": 9,
-            "value": "London",
-            "entity": "location"
+            "start": 4,
+            "end": 10,
+            "value": "Kanpur",
+            "entity": "city"
           }
         ]
       },
@@ -342,26 +348,14 @@
         ]
       },
       {
-        "text": "Lithuania",
-        "intent": "restaurant_search",
-        "entities": [
-          {
-            "start": 0,
-            "end": 9,
-            "value": "Lithuania",
-            "entity": "location"
-          }
-        ]
-      },
-      {
-        "text": "Oh, sorry, in Italy",
+        "text": "Oh, sorry, in Delhi",
         "intent": "restaurant_search",
         "entities": [
           {
             "start": 14,
             "end": 19,
-            "value": "Italy",
-            "entity": "location"
+            "value": "Delhi",
+            "entity": "city"
           }
         ]
       },
@@ -372,8 +366,8 @@
           {
             "start": 3,
             "end": 8,
-            "value": "delhi",
-            "entity": "location"
+            "value": "Delhi",
+            "entity": "city"
           }
         ]
       },
@@ -385,7 +379,7 @@
             "start": 3,
             "end": 8,
             "value": "Delhi",
-            "entity": "location"
+            "entity": "city"
           }
         ]
       },
@@ -397,43 +391,43 @@
             "start": 3,
             "end": 8,
             "value": "Delhi",
-            "entity": "location"
+            "entity": "city"
           }
         ]
       },
       {
-        "text": "I am looking for some restaurants in Delhi.",
+        "text": "I am looking for some restaurants in [delhi](city).",
         "intent": "restaurant_search",
         "entities": [
           {
-            "start": 37,
-            "end": 42,
+            "start": 38,
+            "end": 43,
             "value": "Delhi",
-            "entity": "location"
+            "entity": "city"
           }
         ]
       },
       {
-        "text": "I am looking for some restaurants in Delhi",
+        "text": "I am looking for some restaurants in [Delhi](city)",
         "intent": "restaurant_search",
         "entities": [
           {
-            "start": 37,
-            "end": 42,
+            "start": 38,
+            "end": 43,
             "value": "Delhi",
-            "entity": "location"
+            "entity": "city"
           }
         ]
       },
       {
-        "text": "I am looking for some restaurants in delhi",
+        "text": "I am looking for some restaurants in [Delhi](city)",
         "intent": "restaurant_search",
         "entities": [
           {
-            "start": 37,
-            "end": 42,
-            "value": "delhi",
-            "entity": "location"
+            "start": 38,
+            "end": 43,
+            "value": "Delhi",
+            "entity": "city"
           }
         ]
       },
@@ -450,14 +444,14 @@
         ]
       },
       {
-        "text": "can you book a table in rome in a moderate price range with british food for four people",
+        "text": "can you book a table in pune in a moderate price range with british food for four people",
         "intent": "restaurant_search",
         "entities": [
           {
             "start": 24,
             "end": 28,
-            "value": "rome",
-            "entity": "location"
+            "value": "Pune",
+            "entity": "city"
           },
           {
             "start": 34,
@@ -538,19 +532,19 @@
         "entities": []
       },
       {
-        "text": "please help me to find restaurants in pune",
+        "text": "please help me to find restaurants in [pune](city)",
         "intent": "restaurant_search",
         "entities": [
           {
-            "start": 38,
-            "end": 42,
-            "value": "pune",
-            "entity": "location"
+            "start": 39,
+            "end": 43,
+            "value": "Pune",
+            "entity": "city"
           }
         ]
       },
       {
-        "text": "please book a table for three people in delhi with south indian food",
+        "text": "please book a table for three people in [delhi](city) with south indian food",
         "intent": "restaurant_search",
         "entities": [
           {
@@ -560,21 +554,21 @@
             "entity": "people"
           },
           {
-            "start": 40,
-            "end": 45,
-            "value": "delhi",
-            "entity": "location"
+            "start": 41,
+            "end": 46,
+            "value": "Delhi",
+            "entity": "city"
           },
           {
-            "start": 51,
-            "end": 63,
+            "start": 59,
+            "end": 71,
             "value": "south indian",
             "entity": "cuisine"
           }
         ]
       },
       {
-        "text": "please show me restaurant for a couple in mumbai in low price range.",
+        "text": "please show me restaurant for a couple in [mumbai](city) in low price range.",
         "intent": "restaurant_search",
         "entities": [
           {
@@ -584,21 +578,21 @@
             "entity": "people"
           },
           {
-            "start": 42,
-            "end": 48,
-            "value": "mumbai",
-            "entity": "location"
+            "start": 43,
+            "end": 49,
+            "value": "Mumbai",
+            "entity": "city"
           },
           {
-            "start": 52,
-            "end": 55,
+            "start": 60,
+            "end": 63,
             "value": "low",
             "entity": "price"
           }
         ]
       },
       {
-        "text": "please show me low budget restaurant for a couple in mumbai.",
+        "text": "please show me low budget restaurant for a couple in [mumbai](city).",
         "intent": "restaurant_search",
         "entities": [
           {
@@ -614,10 +608,10 @@
             "entity": "people"
           },
           {
-            "start": 53,
-            "end": 59,
-            "value": "mumbai",
-            "entity": "location"
+            "start": 54,
+            "end": 60,
+            "value": "Mumbai",
+            "entity": "city"
           }
         ]
       },
@@ -629,6 +623,24 @@
             "start": 33,
             "end": 36,
             "value": "two",
+            "entity": "people"
+          }
+        ]
+      },
+      {
+        "text": "please suggest me a restaurant in [agra](city) for a couple",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 31,
+            "value": "agra ",
+            "entity": "city"
+          },
+          {
+            "start": 53,
+            "end": 59,
+            "value": "2",
             "entity": "people"
           }
         ]

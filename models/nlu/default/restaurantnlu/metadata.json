@@ -12,13 +12,13 @@
             "class": "rasa_nlu.tokenizers.spacy_tokenizer.SpacyTokenizer"
         },
         {
-            "name": "intent_featurizer_spacy",
-            "class": "rasa_nlu.featurizers.spacy_featurizer.SpacyFeaturizer"
-        },
-        {
             "name": "intent_entity_featurizer_regex",
             "regex_file": "regex_featurizer.json",
             "class": "rasa_nlu.featurizers.regex_featurizer.RegexFeaturizer"
+        },
+        {
+            "name": "intent_featurizer_spacy",
+            "class": "rasa_nlu.featurizers.spacy_featurizer.SpacyFeaturizer"
         },
         {
             "BILOU_flag": true,
@@ -78,9 +78,13 @@
             "name": "intent_classifier_sklearn",
             "classifier_file": "intent_classifier_sklearn.pkl",
             "class": "rasa_nlu.classifiers.sklearn_intent_classifier.SklearnIntentClassifier"
+        },
+        {
+            "name": "ner_spacy",
+            "class": "rasa_nlu.extractors.spacy_entity_extractor.SpacyEntityExtractor"
         }
     ],
     "training_data": "training_data.json",
-    "trained_at": "20190716-184654",
+    "trained_at": "20190717-203357",
     "rasa_nlu_version": "0.12.3"
 }

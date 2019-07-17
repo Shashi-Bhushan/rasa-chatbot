@@ -3,8 +3,13 @@
   "chines": "chinese",
   "veggie": "vegetarian",
   "vegg": "vegetarian",
+  "veg": "vegetarian",
+  "delhi": "Delhi",
+  "pune": "Pune",
   "moderate": "mid",
   "four": "4",
   "three": "3",
-  "couple": "2"
+  "couple": "2",
+  "mumbai": "Mumbai",
+  "restaurant ": "agra "
 }

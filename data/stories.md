@@ -3,13 +3,13 @@
     - utter_greet
 * restaurant_search
     - utter_ask_location
-* restaurant_search{"location": "delhi"}
-    - slot{"location": "delhi"}
+* restaurant_search{"city": "Delhi"}
+    - slot{"city": "Delhi"}
     - utter_ask_cuisine
 * restaurant_search{"cuisine": "chinese"}
     - slot{"cuisine": "chinese"}
     - action_restaurant
-    - slot{"location": "delhi"}
+    - slot{"city": "Delhi"}
     - utter_goodbye
     - export
 
@@ -18,8 +18,8 @@
     - utter_greet
 * restaurant_search
     - utter_ask_location
-* restaurant_search{"location": "delhi"}
-    - slot{"location": "delhi"}
+* restaurant_search{"city": "Delhi"}
+    - slot{"city": "Delhi"}
     - utter_ask_cuisine
 * restaurant_search{"cuisine": "North Indian"}
     - slot{"cuisine": "North Indian"}
@@ -31,8 +31,8 @@
     - utter_greet
 * restaurant_search
     - utter_ask_location
-* restaurant_search{"location": "italy"}
-    - slot{"location": "italy"}
+* restaurant_search{"city": "italy"}
+    - slot{"city": "italy"}
 	- utter_ask_cuisine
 * restaurant_search{"cuisine": "chinese"}
     - slot{"cuisine": "chinese"}
@@ -45,21 +45,21 @@
     - utter_greet
 * restaurant_search
     - utter_ask_location
-* restaurant_search{"location": "delhi"}
-    - slot{"location": "delhi"}
+* restaurant_search{"city": "Delhi"}
+    - slot{"city": "Delhi"}
     - utter_ask_cuisine
 * restaurant_search{"cuisine": "chinese"}
     - slot{"cuisine": "chinese"}
     - action_restaurant
-    - slot{"location": "delhi"}
+    - slot{"city": "Delhi"}
     - export
 
 
 ## Generated Story 4963448062290237512
 * greet
     - utter_greet
-* restaurant_search{"location": "delhi"}
-    - slot{"location": "delhi"}
+* restaurant_search{"city": "Delhi"}
+    - slot{"city": "Delhi"}
     - utter_ask_cuisine
 * restaurant_search{"cuisine": "chinese"}
     - slot{"cuisine": "chinese"}
@@ -85,13 +85,28 @@
 ## Generated Story 5997938757576637653
 * greet
     - utter_greet
-* restaurant_search{"people": "2", "location": "mumbai"}
-    - slot{"location": "mumbai"}
+* restaurant_search{"people": "2", "city": "Mumbai"}
+    - slot{"city": "Mumbai"}
     - slot{"people": "2"}
     - utter_ask_cuisine
 * restaurant_search{"cuisine": "chinese"}
     - slot{"cuisine": "chinese"}
     - action_restaurant
+* affirm
+    - utter_goodbye
+    - export
+
+## Generated Story 1550455130392932177
+* greet
+    - utter_greet
+* restaurant_search{"city": "Delhi", "people": "2"}
+    - slot{"city": "Delhi"}
+    - slot{"people": "2"}
+    - utter_ask_cuisine
+* restaurant_search{"cuisine": "south indian"}
+    - slot{"cuisine": "south indian"}
+    - action_restaurant
+    - slot{"location": null}
 * affirm
     - utter_goodbye
     - export

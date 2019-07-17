@@ -18,5 +18,5 @@ def run_nlu():
 	print(interpreter.parse("can you please suggest food"))
 	
 if __name__ == '__main__':
-	train_nlu('./data/data.json', 'config_spacy.json', './models/nlu')
+	train_nlu('./data/data.json', 'config.yaml', './models/nlu')
 	run_nlu()

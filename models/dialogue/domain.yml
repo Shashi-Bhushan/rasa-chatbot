@@ -28,6 +28,9 @@ intents:
 - thankyou
 - restaurant_search
 slots:
+  city:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
   cuisine:
     initial_value: null
     type: rasa_core.slots.CategoricalSlot

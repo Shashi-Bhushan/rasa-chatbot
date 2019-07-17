@@ -8,6 +8,7 @@
     "intent_restaurant_search",
     "entity_location",
     "entity_cuisine",
+    "slot_city_0",
     "slot_cuisine_0",
     "slot_cuisine_1",
     "slot_cuisine_2",

@@ -1,6 +1,8 @@
 slots:
   location:
     type: text
+  city:
+    type: text
   cuisine:
     type: categorical
     values:
