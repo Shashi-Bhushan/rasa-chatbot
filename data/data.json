@@ -23,13 +23,19 @@
         "value": "vegetarian",
         "synonyms": [
           "veggie",
-          "vegg"
+          "vegg",
+          "veg"
         ]
       }
     ],
     "common_examples": [
       {
         "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hola",
         "intent": "greet",
         "entities": []
       },
@@ -612,6 +618,18 @@
             "end": 59,
             "value": "mumbai",
             "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I would like to book a table for two please",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 33,
+            "end": 36,
+            "value": "two",
+            "entity": "people"
           }
         ]
       }

@@ -30,10 +30,27 @@ intents:
 slots:
   cuisine:
     initial_value: null
-    type: rasa_core.slots.TextSlot
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - chinese
+    - mexican
+    - italian
+    - american
+    - south indian
+    - north indian
   location:
     initial_value: null
     type: rasa_core.slots.TextSlot
+  people:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  price:
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - low
+    - medium
+    - high
 templates:
   utter_ask_cuisine:
   - buttons:

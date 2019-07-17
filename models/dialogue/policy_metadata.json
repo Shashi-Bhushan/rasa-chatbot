@@ -2,17 +2,18 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "cuisine",
-        "location"
+        "people",
+        "location",
+        "cuisine"
       ]
+    },
+    "utter_goodbye": {
+      "slots": []
     },
     "action_restaurant": {
       "slots": [
         "location"
       ]
-    },
-    "utter_goodbye": {
-      "slots": []
     }
   },
   "rasa_core": "0.10.1",

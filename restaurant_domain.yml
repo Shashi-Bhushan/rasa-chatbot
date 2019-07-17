@@ -2,7 +2,22 @@ slots:
   location:
     type: text
   cuisine:
+    type: categorical
+    values:
+      - Chinese
+      - Mexican
+      - Italian
+      - American
+      - South Indian
+      - North Indian
+  people:
     type: text
+  price:
+    type: categorical
+    values:
+      - low
+      - medium
+      - high
 
 entities:
 - location

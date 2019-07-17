@@ -484,6 +484,78 @@
           }
         ],
         "text": "please help me to find restaurants in pune"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "3",
+            "entity": "people"
+          },
+          {
+            "start": 40,
+            "end": 45,
+            "value": "delhi",
+            "entity": "location"
+          },
+          {
+            "start": 51,
+            "end": 63,
+            "value": "south indian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "please book a table for three people in delhi with south indian food"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 32,
+            "end": 38,
+            "value": "2",
+            "entity": "people"
+          },
+          {
+            "start": 42,
+            "end": 48,
+            "value": "mumbai",
+            "entity": "location"
+          },
+          {
+            "start": 52,
+            "end": 55,
+            "value": "low",
+            "entity": "price"
+          }
+        ],
+        "text": "please show me restaurant for a couple in mumbai in low price range."
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "low",
+            "entity": "price"
+          },
+          {
+            "start": 43,
+            "end": 49,
+            "value": "2",
+            "entity": "people"
+          },
+          {
+            "start": 53,
+            "end": 59,
+            "value": "mumbai",
+            "entity": "location"
+          }
+        ],
+        "text": "please show me low budget restaurant for a couple in mumbai."
       }
     ],
     "regex_features": [

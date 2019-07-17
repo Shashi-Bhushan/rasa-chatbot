@@ -67,3 +67,32 @@
 * affirm
     - utter_goodbye
     - export
+
+
+## Generated Story 8729705276404750994
+* greet
+    - utter_greet
+* restaurant_search{"people": "two"}
+    - slot{"people": "two"}
+    - utter_ask_cuisine
+* restaurant_search{"cuisine": "chinese"}
+    - slot{"cuisine": "chinese"}
+    - action_restaurant
+* goodbye
+    - utter_goodbye
+    - export
+
+## Generated Story 5997938757576637653
+* greet
+    - utter_greet
+* restaurant_search{"people": "2", "location": "mumbai"}
+    - slot{"location": "mumbai"}
+    - slot{"people": "2"}
+    - utter_ask_cuisine
+* restaurant_search{"cuisine": "chinese"}
+    - slot{"cuisine": "chinese"}
+    - action_restaurant
+* affirm
+    - utter_goodbye
+    - export
+
