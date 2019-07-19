@@ -1,15 +1,69 @@
+## Generated Story 255706069223404499
+* greet
+    - utter_greet
+* restaurant_search{"city": "Delhi"}
+    - slot{"city": "Delhi"}
+    - utter_ask_cuisine
+* restaurant_search{"cuisine": "Chinese"}
+    - slot{"cuisine": "Chinese"}
+    - utter_ask_number_people
+* restaurant_search{"people": "2"}
+    - slot{"people": "2"}
+    - action_restaurant
+* goodbye
+    - utter_goodbye
+    - export
+
+## Generated Story 255706069223404410
+* greet
+    - utter_greet
+* restaurant_search{"cuisine": "Chinese"}
+    - slot{"cuisine": "Chinese"}
+    - utter_ask_city
+* restaurant_search{"city": "Delhi"}
+    - slot{"city": "Delhi"}
+    - utter_ask_number_people
+* restaurant_search{"people": "2"}
+    - slot{"people": "2"}
+    - action_restaurant
+* goodbye
+    - utter_goodbye
+    - export
+
+## Generated Story 255706069223404410
+* greet
+    - utter_greet
+* restaurant_search{"people": "2"}
+    - slot{"people": "2"}
+    - utter_ask_city
+* restaurant_search{"city": "Delhi"}
+    - slot{"city": "Delhi"}
+    - utter_ask_cuisine
+* restaurant_search{"cuisine": "North Indian"}
+    - slot{"cuisine": "North Indian"}
+    - utter_ask_number_people
+* restaurant_search{"people": "2"}
+    - slot{"people": "2"}
+    - action_restaurant
+* goodbye
+    - utter_goodbye
+    - export
+    
 ## Generated Story 255706069223404498
 * greet
     - utter_greet
 * restaurant_search
-    - utter_ask_location
+    - utter_ask_city
 * restaurant_search{"city": "Delhi"}
     - slot{"city": "Delhi"}
     - utter_ask_cuisine
-* restaurant_search{"cuisine": "chinese"}
-    - slot{"cuisine": "chinese"}
+* restaurant_search{"cuisine": "Chinese"}
+    - slot{"cuisine": "Chinese"}
+    - utter_ask_number_people
+* restaurant_search{"people": "2"}
+    - slot{"people": "2"}
     - action_restaurant
-    - slot{"city": "Delhi"}
+* goodbye
     - utter_goodbye
     - export
 
@@ -17,43 +71,53 @@
 * greet
     - utter_greet
 * restaurant_search
-    - utter_ask_location
+    - utter_ask_city
 * restaurant_search{"city": "Delhi"}
     - slot{"city": "Delhi"}
     - utter_ask_cuisine
 * restaurant_search{"cuisine": "North Indian"}
     - slot{"cuisine": "North Indian"}
+    - utter_ask_number_people
+* restaurant_search{"people": "2"}
+    - slot{"people": "2"}
     - action_restaurant
+* goodbye
     - utter_goodbye
+    - export
 
 ## Generated Story 3320800183399695936
 * greet
     - utter_greet
 * restaurant_search
-    - utter_ask_location
-* restaurant_search{"city": "italy"}
-    - slot{"city": "italy"}
+    - utter_ask_city
+* restaurant_search{"cuisine": "Chinese"}
+    - slot{"city": "Pune"}
 	- utter_ask_cuisine
-* restaurant_search{"cuisine": "chinese"}
-    - slot{"cuisine": "chinese"}
+* restaurant_search{"cuisine": "Chinese"}
+    - slot{"cuisine": "Chinese"}
+    - utter_ask_number_people
+* restaurant_search{"people": "2"}
+    - slot{"people": "2"}
     - action_restaurant
 * goodbye
     - utter_goodbye
+    - export
 
 ## Generated Story -4639179087166749998
 * greet
     - utter_greet
 * restaurant_search
-    - utter_ask_location
+    - utter_ask_city
 * restaurant_search{"city": "Delhi"}
     - slot{"city": "Delhi"}
     - utter_ask_cuisine
-* restaurant_search{"cuisine": "chinese"}
-    - slot{"cuisine": "chinese"}
+* restaurant_search{"cuisine": "Chinese"}
+    - slot{"cuisine": "Chinese"}
+    - utter_ask_number_people
+* restaurant_search{"people": "2"}
+    - slot{"people": "2"}
     - action_restaurant
-    - slot{"city": "Delhi"}
     - export
-
 
 ## Generated Story 4963448062290237512
 * greet
@@ -61,22 +125,24 @@
 * restaurant_search{"city": "Delhi"}
     - slot{"city": "Delhi"}
     - utter_ask_cuisine
-* restaurant_search{"cuisine": "chinese"}
-    - slot{"cuisine": "chinese"}
+* restaurant_search{"cuisine": "Chinese"}
+    - slot{"cuisine": "Chinese"}
+    - utter_ask_number_people
+* restaurant_search{"people": "2"}
+    - slot{"people": "2"}
     - action_restaurant
-* affirm
+* goodbye
     - utter_goodbye
     - export
-
 
 ## Generated Story 8729705276404750994
 * greet
     - utter_greet
-* restaurant_search{"people": "two"}
-    - slot{"people": "two"}
+* restaurant_search{"people": "2"}
+    - slot{"people": "2"}
     - utter_ask_cuisine
-* restaurant_search{"cuisine": "chinese"}
-    - slot{"cuisine": "chinese"}
+* restaurant_search{"cuisine": "Mexican"}
+    - slot{"cuisine": "Mexican"}
     - action_restaurant
 * goodbye
     - utter_goodbye
@@ -89,10 +155,10 @@
     - slot{"city": "Mumbai"}
     - slot{"people": "2"}
     - utter_ask_cuisine
-* restaurant_search{"cuisine": "chinese"}
-    - slot{"cuisine": "chinese"}
+* restaurant_search{"cuisine": "Chinese"}
+    - slot{"cuisine": "Chinese"}
     - action_restaurant
-* affirm
+* goodbye
     - utter_goodbye
     - export
 
@@ -103,8 +169,52 @@
     - slot{"city": "Delhi"}
     - slot{"people": "2"}
     - utter_ask_cuisine
-* restaurant_search{"cuisine": "south indian"}
-    - slot{"cuisine": "south indian"}
+* restaurant_search{"cuisine": "South Indian"}
+    - slot{"cuisine": "South Indian"}
+    - action_restaurant
+* goodbye
+    - utter_goodbye
+    - export
+
+## Generated Story 4332723882015857829
+* greet
+    - utter_greet
+* restaurant_search{"city": "Delhi"}
+    - slot{"city": "Delhi"}
+    - utter_ask_cuisine
+* restaurant_search{"cuisine": "South Indian"}
+    - slot{"cuisine": "South Indian"}
+    - utter_ask_number_people
+* restaurant_search{"people": "2"}
+    - slot{"people": "2"}
+    - action_restaurant
+    - export
+
+## Generated Story 4823797393778816995
+* greet
+    - utter_greet
+* restaurant_search{"cuisine": "South Indian", "people": "2"}
+    - slot{"cuisine": "South Indian"}
+    - slot{"people": "2"}
+    - utter_ask_city
+* restaurant_search{"city": "Delhi"}
+    - slot{"city": "Delhi"}
+    - action_restaurant
+* goodbye
+    - utter_goodbye
+    - export
+
+## Generated Story 5807436972826905629
+* greet
+    - utter_greet
+* restaurant_search{"city": "Delhi"}
+    - slot{"city": "Delhi"}
+    - utter_ask_cuisine
+* restaurant_search{"cuisine": "South Indian"}
+    - slot{"cuisine": "South Indian"}
+    - utter_ask_number_people
+* restaurant_search{"people": "2"}
+    - slot{"people": "2"}
     - action_restaurant
     - slot{"location": null}
 * affirm

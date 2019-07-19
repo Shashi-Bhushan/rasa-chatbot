@@ -495,7 +495,7 @@
           {
             "start": 59,
             "end": 71,
-            "value": "south indian",
+            "value": "South Indian",
             "entity": "cuisine"
           }
         ],
@@ -578,6 +578,120 @@
           }
         ],
         "text": "please suggest me a restaurant in [agra](city) for a couple"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "North Indian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "north indian please"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "South Indian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "south indian please"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 35,
+            "end": 41,
+            "value": "2",
+            "entity": "people"
+          },
+          {
+            "start": 47,
+            "end": 59,
+            "value": "North Indian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "I would like to book a table for a couple with north indian food please"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 22,
+            "end": 34,
+            "value": "South Indian",
+            "entity": "cuisine"
+          },
+          {
+            "start": 49,
+            "end": 53,
+            "value": "Pune",
+            "entity": "city"
+          }
+        ],
+        "text": "please help me find a south indian restaurant in pune"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "Chinese",
+            "entity": "cuisine"
+          },
+          {
+            "start": 48,
+            "end": 53,
+            "value": "Delhi",
+            "entity": "city"
+          },
+          {
+            "start": 42,
+            "end": 47,
+            "value": "north",
+            "entity": "location"
+          }
+        ],
+        "text": "please suggest me a chinese restaurant in North Delhi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 33,
+            "end": 43,
+            "value": "2",
+            "entity": "people"
+          },
+          {
+            "start": 47,
+            "end": 53,
+            "value": "center",
+            "entity": "location"
+          },
+          {
+            "start": 54,
+            "end": 59,
+            "value": "Delhi",
+            "entity": "city"
+          },
+          {
+            "start": 70,
+            "end": 77,
+            "value": "Mexican",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "I would like to book a table for two people in center delhi with good Mexican food please"
       }
     ],
     "regex_features": [

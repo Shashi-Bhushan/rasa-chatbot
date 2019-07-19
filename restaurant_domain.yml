@@ -43,9 +43,9 @@ templates:
     - "goodbye :("
     - "Bye-bye"
   utter_default:
-    - "default message"
+    - "I'm sorry, I didn't understood."
   utter_ask_cuisine: 
-    - text: "what kind of cuisine would you like?"
+    - text: "What kind of cuisine would you like?"
       buttons:
       - title: "Chinese"
         payload: "Chinese"
@@ -55,6 +55,12 @@ templates:
         payload: "South Indian"
       - title: "North Indian"
         payload: "North Indian"
+  utter_ask_city:
+    - "In which city?"
+    - "City please?"
+    - "Please let know in which city?"
+  utter_ask_number_people:
+    - "For how many people?"
   utter_ask_howcanhelp:
     - "how can I help you?"
   utter_ask_location:
@@ -67,4 +73,6 @@ actions:
 - utter_ask_howcanhelp
 - utter_ask_location
 - utter_ask_cuisine
+- utter_ask_city
+- utter_ask_number_people
 - actions.ActionSearchRestaurants

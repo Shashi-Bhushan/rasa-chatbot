@@ -1,5 +1,5 @@
 {
-  "chinese": "chinese",
+  "chinese": "Chinese",
   "chines": "chinese",
   "veggie": "vegetarian",
   "vegg": "vegetarian",
@@ -9,7 +9,11 @@
   "moderate": "mid",
   "four": "4",
   "three": "3",
+  "south indian": "South Indian",
   "couple": "2",
   "mumbai": "Mumbai",
-  "restaurant ": "agra "
+  "restaurant ": "agra ",
+  "north indian": "North Indian",
+  "north": "north",
+  "two people": "2"
 }
