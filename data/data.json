@@ -816,6 +816,150 @@
             "entity": "send_mail"
           }
         ]
+      },
+      {
+        "text": "less than 300",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "low",
+            "entity": "budget"
+          }
+        ]
+      },
+      {
+        "text": "lesser than 300 i think",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "low",
+            "entity": "budget"
+          }
+        ]
+      },
+      {
+        "text": "hmm, between 300 to 700",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 23,
+            "value": "medium",
+            "entity": "budget"
+          }
+        ]
+      },
+      {
+        "text": "medium budget please",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "medium",
+            "entity": "budget"
+          }
+        ]
+      },
+      {
+        "text": "moderate budget",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "medium",
+            "entity": "budget"
+          }
+        ]
+      },
+      {
+        "text": "in a moderate budget",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "medium",
+            "entity": "budget"
+          }
+        ]
+      },
+      {
+        "text": "more than 700 rupees",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "high",
+            "entity": "budget"
+          }
+        ]
+      },
+      {
+        "text": "in a high budget please",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "high",
+            "entity": "budget"
+          }
+        ]
+      },
+      {
+        "text": "I would prefer a higher budget place",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "high",
+            "entity": "budget"
+          }
+        ]
+      },
+      {
+        "text": "I would prefer a high budget place",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "high",
+            "entity": "budget"
+          }
+        ]
+      },
+      {
+        "text": "No, not required",
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "false",
+            "entity": "send_mail"
+          }
+        ]
+      },
+      {
+        "text": "No, please don't send mail.",
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "false",
+            "entity": "send_mail"
+          }
+        ]
       }
     ]
   }

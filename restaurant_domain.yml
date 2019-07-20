@@ -62,6 +62,10 @@ templates:
         payload: "South Indian"
       - title: "North Indian"
         payload: "North Indian"
+      - title: "Mexican"
+        payload: "Mexican"
+      - title: "American"
+        payload: "American"
   utter_ask_city:
     - "In which city?"
     - "City please?"
@@ -71,7 +75,7 @@ templates:
   utter_ask_location:
     - "In what location?"
   utter_ask_budget:
-    - text: "What's the average budget for {people} people?"
+    - text: "What's the average budget for {people} people? \n Available options are"
       buttons:
       - title: "Lesser than Rs. 300"
         payload: "low"
