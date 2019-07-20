@@ -14,12 +14,16 @@ slots:
       - North Indian
   people:
     type: text
-  price:
+  budget:
     type: categorical
     values:
       - low
       - medium
       - high
+  send_mail:
+    type: bool
+  user_mail_id:
+    type: text
 
 entities:
 - location
@@ -32,6 +36,7 @@ intents:
  - goodbye
  - thankyou
  - restaurant_search
+ - mail_send
 
 
 templates:
@@ -44,6 +49,8 @@ templates:
     - "Bye-bye"
   utter_default:
     - "I'm sorry, I didn't understood."
+  utter_ask_howcanhelp:
+    - "how can I help you?"
   utter_ask_cuisine: 
     - text: "What kind of cuisine would you like?"
       buttons:
@@ -61,10 +68,21 @@ templates:
     - "Please let know in which city?"
   utter_ask_number_people:
     - "For how many people?"
-  utter_ask_howcanhelp:
-    - "how can I help you?"
   utter_ask_location:
     - "In what location?"
+  utter_ask_budget:
+    - text: "What's the average budget for {people} people?"
+      buttons:
+      - title: "Lesser than Rs. 300"
+        payload: "low"
+      - title: "Rs. 300 to 700"
+        payload: "medium"
+      - title: "More than 700"
+        payload: "high"
+  utter_ask_send_mail:
+    - "Should I send you details of all the restaurants on email?"
+  utter_mail_sent:
+    - "I've sent a mail on {user_mail_id}."
 
 actions:
 - utter_greet
@@ -75,4 +93,7 @@ actions:
 - utter_ask_cuisine
 - utter_ask_city
 - utter_ask_number_people
+- utter_ask_budget
 - actions.ActionSearchRestaurants
+- utter_ask_send_mail
+- utter_mail_sent

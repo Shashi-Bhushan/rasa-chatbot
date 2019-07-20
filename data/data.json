@@ -8,6 +8,10 @@
       {
         "name": "greet",
         "pattern": "hey[^\\s]*"
+      },
+      {
+        "name": "user_mail_id",
+        "pattern": "[a-zA-Z0-9]+@[a-zA-Z0-9]+.com"
       }
     ],
     "lookup_tables": [
@@ -18,7 +22,7 @@
     ],
     "entity_synonyms": [
       {
-        "value": "chinese",
+        "value": "Chinese",
         "synonyms": [
           "Chinese",
           "Chines",
@@ -169,7 +173,7 @@
           {
             "start": 8,
             "end": 15,
-            "value": "chinese",
+            "value": "Chinese",
             "entity": "cuisine"
           }
         ]
@@ -181,7 +185,7 @@
           {
             "start": 8,
             "end": 14,
-            "value": "chinese",
+            "value": "Chinese",
             "entity": "cuisine"
           },
           {
@@ -330,7 +334,7 @@
           {
             "start": 0,
             "end": 7,
-            "value": "chinese",
+            "value": "Chinese",
             "entity": "cuisine"
           }
         ]
@@ -342,7 +346,7 @@
           {
             "start": 0,
             "end": 7,
-            "value": "chinese",
+            "value": "Chinese",
             "entity": "cuisine"
           }
         ]
@@ -457,7 +461,7 @@
             "start": 34,
             "end": 42,
             "value": "mid",
-            "entity": "price"
+            "entity": "budget"
           },
           {
             "start": 60,
@@ -587,7 +591,7 @@
             "start": 60,
             "end": 63,
             "value": "low",
-            "entity": "price"
+            "entity": "budget"
           }
         ]
       },
@@ -599,7 +603,7 @@
             "start": 15,
             "end": 18,
             "value": "low",
-            "entity": "price"
+            "entity": "budget"
           },
           {
             "start": 43,
@@ -756,6 +760,60 @@
             "end": 77,
             "value": "Mexican",
             "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "please suggest a low budget restaurant",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 20,
+            "value": "low",
+            "entity": "budget"
+          }
+        ]
+      },
+      {
+        "text": "please suggest a restaurant in low budget",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 34,
+            "value": "low",
+            "entity": "budget"
+          }
+        ]
+      },
+      {
+        "text": "yes, on abc@xyz.com",
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "true",
+            "entity": "send_mail"
+          },
+          {
+            "start": 8,
+            "end": 19,
+            "value": "abc@xyz.com",
+            "entity": "user_mail_id"
+          }
+        ]
+      },
+      {
+        "text": "yes please",
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "true",
+            "entity": "send_mail"
           }
         ]
       }

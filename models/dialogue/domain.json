@@ -6,8 +6,12 @@
     "intent_goodbye",
     "intent_thankyou",
     "intent_restaurant_search",
+    "intent_send_mail",
     "entity_location",
     "entity_cuisine",
+    "slot_budget_0",
+    "slot_budget_1",
+    "slot_budget_2",
     "slot_city_0",
     "slot_cuisine_0",
     "slot_cuisine_1",
@@ -17,9 +21,8 @@
     "slot_cuisine_5",
     "slot_location_0",
     "slot_people_0",
-    "slot_price_0",
-    "slot_price_1",
-    "slot_price_2",
+    "slot_send_mail_0",
+    "slot_user_mail_id_0",
     "prev_action_listen",
     "prev_action_restart",
     "prev_action_default_fallback",
@@ -29,6 +32,11 @@
     "prev_utter_ask_howcanhelp",
     "prev_utter_ask_location",
     "prev_utter_ask_cuisine",
-    "prev_action_restaurant"
+    "prev_utter_ask_city",
+    "prev_utter_ask_number_people",
+    "prev_utter_ask_budget",
+    "prev_action_restaurant",
+    "prev_utter_ask_send_mail",
+    "prev_utter_mail_sent"
   ]
 }

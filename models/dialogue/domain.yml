@@ -6,7 +6,12 @@ action_names:
 - utter_ask_howcanhelp
 - utter_ask_location
 - utter_ask_cuisine
+- utter_ask_city
+- utter_ask_number_people
+- utter_ask_budget
 - action_restaurant
+- utter_ask_send_mail
+- utter_mail_sent
 actions:
 - utter_greet
 - utter_goodbye
@@ -14,7 +19,12 @@ actions:
 - utter_ask_howcanhelp
 - utter_ask_location
 - utter_ask_cuisine
+- utter_ask_city
+- utter_ask_number_people
+- utter_ask_budget
 - actions.ActionSearchRestaurants
+- utter_ask_send_mail
+- utter_mail_sent
 config:
   store_entities_as_slots: true
 entities:
@@ -27,7 +37,15 @@ intents:
 - goodbye
 - thankyou
 - restaurant_search
+- send_mail
 slots:
+  budget:
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - low
+    - medium
+    - high
   city:
     initial_value: null
     type: rasa_core.slots.TextSlot
@@ -47,14 +65,26 @@ slots:
   people:
     initial_value: null
     type: rasa_core.slots.TextSlot
-  price:
+  send_mail:
     initial_value: null
-    type: rasa_core.slots.CategoricalSlot
-    values:
-    - low
-    - medium
-    - high
+    type: rasa_core.slots.BooleanSlot
+  user_mail_id:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
 templates:
+  utter_ask_budget:
+  - buttons:
+    - payload: low
+      title: Lesser than Rs. 300
+    - payload: medium
+      title: Rs. 300 to 700
+    - payload: high
+      title: More than 700
+    text: What's the average budget for {people} people?
+  utter_ask_city:
+  - text: In which city?
+  - text: City please?
+  - text: Please let know in which city?
   utter_ask_cuisine:
   - buttons:
     - payload: Chinese
@@ -65,13 +95,17 @@ templates:
       title: South Indian
     - payload: North Indian
       title: North Indian
-    text: what kind of cuisine would you like?
+    text: What kind of cuisine would you like?
   utter_ask_howcanhelp:
   - text: how can I help you?
   utter_ask_location:
   - text: In what location?
+  utter_ask_number_people:
+  - text: For how many people?
+  utter_ask_send_mail:
+  - text: Should I send you details of all the restaurants on email?
   utter_default:
-  - text: default message
+  - text: I'm sorry, I didn't understood.
   utter_goodbye:
   - text: goodbye :(
   - text: Bye-bye
@@ -79,3 +113,5 @@ templates:
   - text: hey there! How may i help you
   - text: Hi, How can I help you!
   - text: Hey, How is it going. How May I help you Today
+  utter_mail_sent:
+  - text: I've sent a mail on {user_mail_id}.

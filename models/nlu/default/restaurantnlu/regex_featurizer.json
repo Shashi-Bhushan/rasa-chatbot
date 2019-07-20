@@ -4,6 +4,10 @@
         "pattern": "hey[^\\s]*"
     },
     {
+        "name": "user_mail_id",
+        "pattern": "[a-zA-Z0-9]+@[a-zA-Z0-9]+.com"
+    },
+    {
         "name": "zipcode",
         "pattern": "[0-9]{5}"
     }

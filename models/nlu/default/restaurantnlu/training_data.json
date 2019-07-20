@@ -111,7 +111,7 @@
           {
             "start": 8,
             "end": 15,
-            "value": "chinese",
+            "value": "Chinese",
             "entity": "cuisine"
           }
         ],
@@ -123,7 +123,7 @@
           {
             "start": 8,
             "end": 14,
-            "value": "chinese",
+            "value": "Chinese",
             "entity": "cuisine"
           },
           {
@@ -271,7 +271,7 @@
           {
             "start": 0,
             "end": 7,
-            "value": "chinese",
+            "value": "Chinese",
             "entity": "cuisine"
           }
         ],
@@ -283,7 +283,7 @@
           {
             "start": 0,
             "end": 7,
-            "value": "chinese",
+            "value": "Chinese",
             "entity": "cuisine"
           }
         ],
@@ -398,7 +398,7 @@
             "start": 34,
             "end": 42,
             "value": "mid",
-            "entity": "price"
+            "entity": "budget"
           },
           {
             "start": 60,
@@ -520,7 +520,7 @@
             "start": 60,
             "end": 63,
             "value": "low",
-            "entity": "price"
+            "entity": "budget"
           }
         ],
         "text": "please show me restaurant for a couple in [mumbai](city) in low price range."
@@ -532,7 +532,7 @@
             "start": 15,
             "end": 18,
             "value": "low",
-            "entity": "price"
+            "entity": "budget"
           },
           {
             "start": 43,
@@ -692,6 +692,30 @@
           }
         ],
         "text": "I would like to book a table for two people in center delhi with good Mexican food please"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 20,
+            "value": "low",
+            "entity": "budget"
+          }
+        ],
+        "text": "please suggest a low budget restaurant"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 34,
+            "value": "low",
+            "entity": "budget"
+          }
+        ],
+        "text": "please suggest a restaurant in low budget"
       }
     ],
     "regex_features": [
@@ -700,15 +724,18 @@
         "pattern": "hey[^\\s]*"
       },
       {
+        "name": "user_mail_id",
+        "pattern": "[a-zA-Z0-9]+@[a-zA-Z0-9]+.com"
+      },
+      {
         "name": "zipcode",
         "pattern": "[0-9]{5}"
       }
     ],
     "entity_synonyms": [
       {
-        "value": "chinese",
+        "value": "Chinese",
         "synonyms": [
-          "Chinese",
           "Chines",
           "chines"
         ]

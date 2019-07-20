@@ -2,23 +2,25 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "city",
         "cuisine",
-        "people"
-      ]
-    },
-    "action_restaurant": {
-      "slots": [
-        "city"
+        "people",
+        "city",
+        "budget",
+        "location"
       ]
     },
     "utter_goodbye": {
       "slots": []
+    },
+    "action_restaurant": {
+      "slots": [
+        "location"
+      ]
     }
   },
   "rasa_core": "0.10.1",
   "max_histories": [
-    4,
+    5,
     5
   ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
