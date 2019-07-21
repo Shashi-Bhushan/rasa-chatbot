@@ -397,7 +397,7 @@
           {
             "start": 34,
             "end": 42,
-            "value": "mid",
+            "value": "medium",
             "entity": "budget"
           },
           {
@@ -555,7 +555,7 @@
           {
             "start": 33,
             "end": 36,
-            "value": "two",
+            "value": "2",
             "entity": "people"
           }
         ],
@@ -716,6 +716,246 @@
           }
         ],
         "text": "please suggest a restaurant in low budget"
+      },
+      {
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "true",
+            "entity": "send_mail"
+          },
+          {
+            "start": 8,
+            "end": 19,
+            "value": "abc@xyz.com",
+            "entity": "user_mail_id"
+          }
+        ],
+        "text": "yes, on abc@xyz.com"
+      },
+      {
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "true",
+            "entity": "send_mail"
+          }
+        ],
+        "text": "yes please"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "low",
+            "entity": "budget"
+          }
+        ],
+        "text": "less than 300"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "low",
+            "entity": "budget"
+          }
+        ],
+        "text": "lesser than 300 i think"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 23,
+            "value": "medium",
+            "entity": "budget"
+          }
+        ],
+        "text": "hmm, between 300 to 700"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "medium",
+            "entity": "budget"
+          }
+        ],
+        "text": "medium budget please"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "medium",
+            "entity": "budget"
+          }
+        ],
+        "text": "moderate budget"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "medium",
+            "entity": "budget"
+          }
+        ],
+        "text": "in a moderate budget"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "high",
+            "entity": "budget"
+          }
+        ],
+        "text": "more than 700 rupees"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "high",
+            "entity": "budget"
+          }
+        ],
+        "text": "in a high budget please"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "high",
+            "entity": "budget"
+          }
+        ],
+        "text": "I would prefer a higher budget place"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "high",
+            "entity": "budget"
+          }
+        ],
+        "text": "I would prefer a high budget place"
+      },
+      {
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "false",
+            "entity": "send_mail"
+          }
+        ],
+        "text": "No, not required"
+      },
+      {
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "false",
+            "entity": "send_mail"
+          }
+        ],
+        "text": "No, please don't send mail."
+      },
+      {
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "true",
+            "entity": "send_mail"
+          },
+          {
+            "start": 23,
+            "end": 34,
+            "value": "abc@xyz.com",
+            "entity": "user_mail_id"
+          }
+        ],
+        "text": "yes please, send it on abc@xyz.com"
+      },
+      {
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "yeah",
+            "entity": "send_mail"
+          }
+        ],
+        "text": "yeah, send it."
+      },
+      {
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "yup",
+            "entity": "send_mail"
+          }
+        ],
+        "text": "yup"
+      },
+      {
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "yes",
+            "entity": "send_mail"
+          }
+        ],
+        "text": "yes"
+      },
+      {
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "yup",
+            "entity": "send_mail"
+          }
+        ],
+        "text": "yup, send it"
       }
     ],
     "regex_features": [

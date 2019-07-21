@@ -460,7 +460,7 @@
           {
             "start": 34,
             "end": 42,
-            "value": "mid",
+            "value": "medium",
             "entity": "budget"
           },
           {
@@ -626,7 +626,7 @@
           {
             "start": 33,
             "end": 36,
-            "value": "two",
+            "value": "2",
             "entity": "people"
           }
         ]
@@ -957,6 +957,72 @@
             "start": 0,
             "end": 2,
             "value": "false",
+            "entity": "send_mail"
+          }
+        ]
+      },
+      {
+        "text": "yes please, send it on abc@xyz.com",
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "true",
+            "entity": "send_mail"
+          },
+          {
+            "start": 23,
+            "end": 34,
+            "value": "abc@xyz.com",
+            "entity": "user_mail_id"
+          }
+        ]
+      },
+      {
+        "text": "yeah, send it.",
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "yeah",
+            "entity": "send_mail"
+          }
+        ]
+      },
+      {
+        "text": "yup",
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "yup",
+            "entity": "send_mail"
+          }
+        ]
+      },
+      {
+        "text": "yes",
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "yes",
+            "entity": "send_mail"
+          }
+        ]
+      },
+      {
+        "text": "yup, send it",
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "yup",
             "entity": "send_mail"
           }
         ]

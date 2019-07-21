@@ -7,13 +7,17 @@
 * restaurant_search{"cuisine": "Chinese"}
     - slot{"cuisine": "Chinese"}
     - utter_ask_number_people
-* restaurant_search{"people": "2"}
+* restaurant_search{"people": "2", "CARDINAL": "two"}
     - slot{"people": "2"}
     - utter_ask_budget
 * restaurant_search{"budget": "low"}
     - slot{"budget": "low"}
     - action_restaurant
-* goodbye
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
     - utter_goodbye
     - export
     
@@ -27,10 +31,14 @@
 * restaurant_search{"cuisine": "Chinese"}
     - slot{"cuisine": "Chinese"}
     - utter_ask_number_people
-* restaurant_search{"people": "2"}
+* restaurant_search{"people": "2", "CARDINAL": "two"}
     - slot{"people": "2"}
     - action_restaurant
-* goodbye
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
     - utter_goodbye
     - export
 
@@ -43,13 +51,17 @@
 * restaurant_search{"city": "Delhi"}
     - slot{"city": "Delhi"}
     - utter_ask_number_people
-* restaurant_search{"people": "2"}
+* restaurant_search{"people": "2", "CARDINAL": "two"}
     - slot{"people": "2"}
     - utter_ask_budget
 * restaurant_search{"budget": "low"}
     - slot{"budget": "low"}
     - action_restaurant
-* goodbye
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
     - utter_goodbye
     - export
     
@@ -63,17 +75,21 @@
 * restaurant_search{"city": "Delhi"}
     - slot{"city": "Delhi"}
     - utter_ask_number_people
-* restaurant_search{"people": "2"}
+* restaurant_search{"people": "2", "CARDINAL": "two"}
     - slot{"people": "2"}
     - action_restaurant
-* goodbye
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
     - utter_goodbye
     - export
 
 ## Generated Story 255706069223404410
 * greet
     - utter_greet
-* restaurant_search{"people": "2"}
+* restaurant_search{"people": "2", "CARDINAL": "two"}
     - slot{"people": "2"}
     - utter_ask_city
 * restaurant_search{"city": "Delhi"}
@@ -81,14 +97,15 @@
     - utter_ask_cuisine
 * restaurant_search{"cuisine": "North Indian"}
     - slot{"cuisine": "North Indian"}
-    - utter_ask_number_people
-* restaurant_search{"people": "2"}
-    - slot{"people": "2"}
     - utter_ask_budget
 * restaurant_search{"budget": "low"}
     - slot{"budget": "low"}
     - action_restaurant
-* goodbye
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
     - utter_goodbye
     - export
     
@@ -104,11 +121,12 @@
     - utter_ask_cuisine
 * restaurant_search{"cuisine": "North Indian"}
     - slot{"cuisine": "North Indian"}
-    - utter_ask_number_people
-* restaurant_search{"people": "2"}
-    - slot{"people": "2"}
     - action_restaurant
-* goodbye
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
     - utter_goodbye
     - export
     
@@ -123,13 +141,17 @@
 * restaurant_search{"cuisine": "Chinese"}
     - slot{"cuisine": "Chinese"}
     - utter_ask_number_people
-* restaurant_search{"people": "2"}
+* restaurant_search{"people": "2", "CARDINAL": "two"}
     - slot{"people": "2"}
     - utter_ask_budget
 * restaurant_search{"budget": "low"}
     - slot{"budget": "low"}
     - action_restaurant
-* goodbye
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
     - utter_goodbye
     - export
     
@@ -145,10 +167,14 @@
 * restaurant_search{"cuisine": "Chinese"}
     - slot{"cuisine": "Chinese"}
     - utter_ask_number_people
-* restaurant_search{"people": "2"}
+* restaurant_search{"people": "2", "CARDINAL": "two"}
     - slot{"people": "2"}
     - action_restaurant
-* goodbye
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
     - utter_goodbye
     - export
 
@@ -163,13 +189,17 @@
 * restaurant_search{"cuisine": "North Indian"}
     - slot{"cuisine": "North Indian"}
     - utter_ask_number_people
-* restaurant_search{"people": "2"}
+* restaurant_search{"people": "2", "CARDINAL": "two"}
     - slot{"people": "2"}
     - utter_ask_budget
 * restaurant_search{"budget": "low"}
     - slot{"budget": "low"}
     - action_restaurant
-* goodbye
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
     - utter_goodbye
     - export
     
@@ -185,10 +215,14 @@
 * restaurant_search{"cuisine": "North Indian"}
     - slot{"cuisine": "North Indian"}
     - utter_ask_number_people
-* restaurant_search{"people": "2"}
+* restaurant_search{"people": "2", "CARDINAL": "two"}
     - slot{"people": "2"}
     - action_restaurant
-* goodbye
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
     - utter_goodbye
     - export
 
@@ -203,13 +237,17 @@
 * restaurant_search{"cuisine": "Chinese"}
     - slot{"cuisine": "Chinese"}
     - utter_ask_number_people
-* restaurant_search{"people": "2"}
+* restaurant_search{"people": "2", "CARDINAL": "two"}
     - slot{"people": "2"}
     - utter_ask_budget
 * restaurant_search{"budget": "low"}
     - slot{"budget": "low"}
     - action_restaurant
-* goodbye
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
     - utter_goodbye
     - export
 
@@ -225,10 +263,14 @@
 * restaurant_search{"cuisine": "Chinese"}
     - slot{"cuisine": "Chinese"}
     - utter_ask_number_people
-* restaurant_search{"people": "2"}
+* restaurant_search{"people": "2", "CARDINAL": "two"}
     - slot{"people": "2"}
     - action_restaurant
-* goodbye
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
     - utter_goodbye
     - export
 
@@ -243,13 +285,17 @@
 * restaurant_search{"cuisine": "Chinese"}
     - slot{"cuisine": "Chinese"}
     - utter_ask_number_people
-* restaurant_search{"people": "2"}
+* restaurant_search{"people": "2", "CARDINAL": "two"}
     - slot{"people": "2"}
     - utter_ask_budget
 * restaurant_search{"budget": "low"}
     - slot{"budget": "low"}
     - action_restaurant
-* goodbye
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
     - utter_goodbye
     - export
     
@@ -265,10 +311,14 @@
 * restaurant_search{"cuisine": "Chinese"}
     - slot{"cuisine": "Chinese"}
     - utter_ask_number_people
-* restaurant_search{"people": "2"}
+* restaurant_search{"people": "2", "CARDINAL": "two"}
     - slot{"people": "2"}
     - action_restaurant
-* goodbye
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
     - utter_goodbye
     - export
 
@@ -281,13 +331,17 @@
 * restaurant_search{"cuisine": "Chinese"}
     - slot{"cuisine": "Chinese"}
     - utter_ask_number_people
-* restaurant_search{"people": "2"}
+* restaurant_search{"people": "2", "CARDINAL": "two"}
     - slot{"people": "2"}
     - utter_ask_budget
 * restaurant_search{"budget": "low"}
     - slot{"budget": "low"}
     - action_restaurant
-* goodbye
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
     - utter_goodbye
     - export
     
@@ -301,17 +355,21 @@
 * restaurant_search{"cuisine": "Chinese"}
     - slot{"cuisine": "Chinese"}
     - utter_ask_number_people
-* restaurant_search{"people": "2"}
+* restaurant_search{"people": "2", "CARDINAL": "two"}
     - slot{"people": "2"}
     - action_restaurant
-* goodbye
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
     - utter_goodbye
     - export
 
 ## Generated Story 8729705276404750994
 * greet
     - utter_greet
-* restaurant_search{"people": "2"}
+* restaurant_search{"people": "2", "CARDINAL": "two"}
     - slot{"people": "2"}
     - utter_ask_city
 * restaurant_search{"city": "Delhi"}
@@ -323,7 +381,11 @@
 * restaurant_search{"budget": "low"}
     - slot{"budget": "low"}
     - action_restaurant
-* goodbye
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
     - utter_goodbye
     - export
     
@@ -341,7 +403,35 @@
 * restaurant_search{"cuisine": "Mexican"}
     - slot{"cuisine": "Mexican"}
     - action_restaurant
-* goodbye
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
+    - utter_goodbye
+    - export
+    
+        
+## Generated Story 8729705276404650944
+* greet
+    - utter_greet
+* restaurant_search{"budget": "low"}
+    - slot{"budget": "low"}
+    - utter_ask_city
+* restaurant_search{"city": "Delhi"}
+    - slot{"city": "Delhi"}
+    - utter_ask_cuisine
+* restaurant_search{"cuisine": "Mexican"}
+    - slot{"cuisine": "Mexican"}
+    - utter_ask_number_people
+* restaurant_search{"people": "2", "CARDINAL": "two"}
+    - slot{"people": "2"}
+    - action_restaurant
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
     - utter_goodbye
     - export
 
@@ -358,7 +448,34 @@
 * restaurant_search{"budget": "low"}
     - slot{"budget": "low"}
     - action_restaurant
-* goodbye
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
+    - utter_goodbye
+    - export
+    
+## Generated Story 5997938757576635653
+* greet
+    - utter_greet
+* restaurant_search{"city": "Mumbai"}
+    - slot{"city": "Mumbai"}
+    - utter_ask_cuisine
+* restaurant_search{"cuisine": "Chinese"}
+    - slot{"cuisine": "Chinese"}
+    - utter_ask_number_people
+* restaurant_search{"people": "2", "CARDINAL": "two"}
+    - slot{"people": "2"}
+    - utter_ask_budget
+* restaurant_search{"budget": "low"}
+    - slot{"budget": "low"}
+    - action_restaurant
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
     - utter_goodbye
     - export
     
@@ -373,7 +490,11 @@
 * restaurant_search{"cuisine": "Chinese"}
     - slot{"cuisine": "Chinese"}
     - action_restaurant
-* goodbye
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
     - utter_goodbye
     - export
 
@@ -390,7 +511,11 @@
 * restaurant_search{"budget": "low"}
     - slot{"budget": "low"}
     - action_restaurant
-* goodbye
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
     - utter_goodbye
     - export
     
@@ -405,7 +530,11 @@
 * restaurant_search{"cuisine": "South Indian"}
     - slot{"cuisine": "South Indian"}
     - action_restaurant
-* goodbye
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
     - utter_goodbye
     - export
 
@@ -419,12 +548,18 @@
 * restaurant_search{"cuisine": "South Indian"}
     - slot{"cuisine": "South Indian"}
     - utter_ask_number_people
-* restaurant_search{"people": "2"}
+* restaurant_search{"people": "2", "CARDINAL": "two"}
     - slot{"people": "2"}
     - utter_ask_budget
 * restaurant_search{"budget": "low"}
     - slot{"budget": "low"}
     - action_restaurant
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
+    - utter_goodbye
     - export
     
 ## Generated Story 4332723882015857829
@@ -437,9 +572,15 @@
 * restaurant_search{"cuisine": "South Indian"}
     - slot{"cuisine": "South Indian"}
     - utter_ask_number_people
-* restaurant_search{"people": "2"}
+* restaurant_search{"people": "2", "CARDINAL": "two"}
     - slot{"people": "2"}
     - action_restaurant
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
+    - utter_goodbye
     - export
 
 ## Generated Story 4823797393778816995
@@ -455,7 +596,11 @@
 * restaurant_search{"budget": "low"}
     - slot{"budget": "low"}
     - action_restaurant
-* goodbye
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
     - utter_goodbye
     - export
     
@@ -470,7 +615,11 @@
 * restaurant_search{"city": "Delhi"}
     - slot{"city": "Delhi"}
     - action_restaurant
-* goodbye
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
     - utter_goodbye
     - export
 
@@ -483,12 +632,19 @@
 * restaurant_search{"cuisine": "South Indian"}
     - slot{"cuisine": "South Indian"}
     - utter_ask_number_people
-* restaurant_search{"people": "2"}
+* restaurant_search{"people": "2", "CARDINAL": "two"}
     - slot{"people": "2"}
     - utter_ask_budget
 * restaurant_search{"budget": "low"}
     - slot{"budget": "low"}
     - action_restaurant
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
+    - utter_goodbye
+    - export
     - slot{"location": null}
 * affirm
     - utter_goodbye
@@ -504,9 +660,16 @@
 * restaurant_search{"cuisine": "South Indian"}
     - slot{"cuisine": "South Indian"}
     - utter_ask_number_people
-* restaurant_search{"people": "2"}
+* restaurant_search{"people": "2", "CARDINAL": "two"}
     - slot{"people": "2"}
     - action_restaurant
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
+    - utter_goodbye
+    - export
     - slot{"location": null}
 * affirm
     - utter_goodbye
@@ -522,12 +685,19 @@
 * restaurant_search{"cuisine": "Chinese"}
     - slot{"cuisine": "Chinese"}
     - utter_ask_number_people
-* restaurant_search{"people": "2"}
+* restaurant_search{"people": "2", "CARDINAL": "two"}
     - slot{"people": "2"}
     - utter_ask_budget
 * restaurant_search{"budget": "low"}
     - slot{"budget": "low"}
     - action_restaurant
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
+    - utter_goodbye
+    - export
     - slot{"location": null}
 * affirm
     - utter_goodbye
@@ -544,9 +714,16 @@
 * restaurant_search{"cuisine": "Chinese"}
     - slot{"cuisine": "Chinese"}
     - utter_ask_number_people
-* restaurant_search{"people": "2"}
+* restaurant_search{"people": "2", "CARDINAL": "two"}
     - slot{"people": "2"}
     - action_restaurant
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
+    - utter_goodbye
+    - export
     - slot{"location": null}
 * affirm
     - utter_goodbye
@@ -565,12 +742,12 @@
 * restaurant_search{"cuisine": "South Indian"}
     - slot{"cuisine": "South Indian"}
     - utter_ask_number_people
-* restaurant_search{"people": "2"}
+* restaurant_search{"people": "2", "CARDINAL": "two"}
     - slot{"people": "2"}
     - action_restaurant
     - slot{"location": "new"}
     - utter_ask_send_mail
-* send_mail{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
     - utter_mail_sent
@@ -590,14 +767,59 @@
 * restaurant_search{"cuisine": "South Indian"}
     - slot{"cuisine": "South Indian"}
     - utter_ask_number_people
-* restaurant_search{"people": "3"}
-    - slot{"people": "2"}
+* restaurant_search{"people": "3", "CARDINAL": "three"}
+    - slot{"people": "3"}
     - action_restaurant
     - slot{"location": "new"}
     - utter_ask_send_mail
-* send_mail{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
+    - utter_goodbye
+    - export
+
+## Generated Story -6065010846514547450
+* greet
+    - utter_greet
+* restaurant_search{"people": "3", "CARDINAL": "three"}
+    - slot{"people": "3"}
+    - utter_ask_city
+* restaurant_search{"city": "Delhi"}
+    - slot{"city": "Delhi"}
+    - utter_ask_cuisine
+* restaurant_search{"cuisine": "South Indian"}
+    - slot{"cuisine": "South Indian"}
+    - utter_ask_budget
+* restaurant_search{"budget": "low", "CARDINAL": "less than 300"}
+    - slot{"budget": "low"}
+    - action_restaurant
+    - slot{"location": null}
+    - utter_ask_send_mail
+* mail_send
+    - utter_mail_sent
+    - utter_goodbye
+    - export
+
+## Generated Story 2182940874435946995
+* greet
+    - utter_greet
+* restaurant_search{"people": "2", "CARDINAL": "2"}
+    - slot{"people": "2"}
+    - utter_ask_city
+* restaurant_search{"city": "Delhi"}
+    - slot{"city": "Delhi"}
+    - utter_ask_cuisine
+* restaurant_search{"cuisine": "South Indian"}
+    - slot{"cuisine": "South Indian"}
+    - utter_ask_budget
+* restaurant_search{"budget": "medium"}
+    - slot{"budget": "medium"}
+    - action_restaurant
+    - slot{"location": null}
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true"}
+    - slot{"send_mail": "true"}
     - utter_mail_sent
     - utter_goodbye
     - export
