@@ -26,7 +26,7 @@ slots:
     type: text
 
 entities:
-- location
+- city
 - cuisine
 
 intents:
@@ -75,7 +75,7 @@ templates:
   utter_ask_location:
     - "In what location?"
   utter_ask_budget:
-    - text: "What's the average budget for {people} people? \n Available options are"
+    - text: "What's the average budget for {people} people?\n Available options are"
       buttons:
       - title: "Lesser than Rs. 300"
         payload: "low"

@@ -28,7 +28,7 @@ actions:
 config:
   store_entities_as_slots: true
 entities:
-- location
+- city
 - cuisine
 intents:
 - greet
@@ -37,7 +37,7 @@ intents:
 - goodbye
 - thankyou
 - restaurant_search
-- send_mail
+- mail_send
 slots:
   budget:
     initial_value: null
@@ -80,7 +80,7 @@ templates:
       title: Rs. 300 to 700
     - payload: high
       title: More than 700
-    text: What's the average budget for {people} people?
+    text: "What's the average budget for {people} people?\n Available options are"
   utter_ask_city:
   - text: In which city?
   - text: City please?
@@ -95,6 +95,10 @@ templates:
       title: South Indian
     - payload: North Indian
       title: North Indian
+    - payload: Mexican
+      title: Mexican
+    - payload: American
+      title: American
     text: What kind of cuisine would you like?
   utter_ask_howcanhelp:
   - text: how can I help you?

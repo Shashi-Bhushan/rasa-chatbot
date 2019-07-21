@@ -33,6 +33,7 @@ PyYAML = "==3.12"
 JPype1 = "==0.6.2"
 rasa-nlu = "==0.12.3"
 rasa-core = "==0.10.1"
+pandas = "*"
 
 [requires]
 python_version = "3.6"
