@@ -17,6 +17,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -38,6 +39,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -61,6 +63,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -82,6 +85,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -105,6 +109,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -126,6 +131,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -151,6 +157,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -174,6 +181,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -199,6 +207,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -222,6 +231,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -247,6 +257,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -270,6 +281,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -295,6 +307,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -318,6 +331,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -341,6 +355,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -362,6 +377,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -385,6 +401,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -407,6 +424,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -431,6 +449,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -452,6 +471,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -475,6 +495,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -494,6 +515,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -515,6 +537,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -534,6 +557,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -558,6 +582,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -579,6 +604,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -600,6 +626,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -619,6 +646,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -642,6 +670,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -667,6 +696,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -695,6 +725,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -721,6 +752,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -750,6 +782,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -775,6 +808,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -797,6 +831,7 @@
     - slot{"location": null}
     - utter_ask_send_mail
 * mail_send
+- action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -820,6 +855,7 @@
     - utter_ask_send_mail
 * mail_send{"send_mail": "true"}
     - slot{"send_mail": "true"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -840,6 +876,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -860,6 +897,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -880,6 +918,7 @@
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"send_mail": "true"}
     - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export
@@ -899,6 +938,47 @@
     - utter_ask_send_mail
 * mail_send{"send_mail": "true"}
     - slot{"send_mail": "true"}
+    - action_send_mail
+    - utter_mail_sent
+    - utter_goodbye
+    - export
+
+## Generated Story -5413924741847342311
+* greet
+    - utter_greet
+* restaurant_search{"cuisine": "American", "city": "Mumbai"}
+    - slot{"city": "Mumbai"}
+    - slot{"cuisine": "American"}
+    - utter_ask_number_people
+* restaurant_search{"people": "2", "CARDINAL": "two"}
+    - slot{"people": "2"}
+    - action_restaurant
+    - slot{"location": "Mumbai"}
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
+    - utter_mail_sent
+    - utter_goodbye
+    - export
+
+## Generated Story 7341688501405006768
+* greet
+    - utter_greet
+* restaurant_search{"people": "2", "city": "Delhi", "CARDINAL": "two"}
+    - slot{"city": "Delhi"}
+    - slot{"people": "2"}
+    - utter_ask_cuisine
+* restaurant_search{"cuisine": "mexican"}
+    - slot{"cuisine": "mexican"}
+    - action_restaurant
+    - slot{"location": "Delhi"}
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
     - utter_mail_sent
     - utter_goodbye
     - export

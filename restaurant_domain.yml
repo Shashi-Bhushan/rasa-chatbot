@@ -99,5 +99,6 @@ actions:
 - utter_ask_number_people
 - utter_ask_budget
 - actions.ActionSearchRestaurants
+- actions.ActionSendMail
 - utter_ask_send_mail
 - utter_mail_sent

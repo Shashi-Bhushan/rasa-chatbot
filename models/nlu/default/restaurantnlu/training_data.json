@@ -158,12 +158,12 @@
         "entities": [
           {
             "start": 20,
-            "end": 26,
-            "value": "indian",
+            "end": 32,
+            "value": "South Indian",
             "entity": "cuisine"
           }
         ],
-        "text": "i am looking for an indian spot called olaolaolaolaolaola"
+        "text": "i am looking for an south indian spot called olaolaolaolaolaola"
       },
       {
         "intent": "restaurant_search",
@@ -956,6 +956,126 @@
           }
         ],
         "text": "yup, send it"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "Italian",
+            "entity": "cuisine"
+          },
+          {
+            "start": 34,
+            "end": 40,
+            "value": "Kanpur",
+            "entity": "city"
+          }
+        ],
+        "text": "I'm looking for a italian spot in kanpur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 36,
+            "end": 42,
+            "value": "Kanpur",
+            "entity": "city"
+          },
+          {
+            "start": 14,
+            "end": 21,
+            "value": "Mexican",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "looking for a Mexican restaurant in Kanpur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "North Indian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "show me north-indian restaurant"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "kochi",
+            "entity": "city"
+          }
+        ],
+        "text": "anywhere in kochi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 30,
+            "end": 36,
+            "value": "Kanpur",
+            "entity": "city"
+          }
+        ],
+        "text": "looking for a joint to eat in kanpur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "American",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "i'll prefer american"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "American",
+            "entity": "cuisine"
+          },
+          {
+            "start": 39,
+            "end": 45,
+            "value": "Mumbai",
+            "entity": "city"
+          }
+        ],
+        "text": "looking for a american place to eat in bombay"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 51,
+            "end": 62,
+            "value": "Pondicherry",
+            "entity": "city"
+          },
+          {
+            "start": 21,
+            "end": 29,
+            "value": "American",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "please suggest me an american place to hang out in Pondicherry"
       }
     ],
     "regex_features": [
@@ -986,6 +1106,27 @@
           "veggie",
           "vegg",
           "veg"
+        ]
+      },
+      {
+        "value": "Bengaluru",
+        "synonyms": [
+          "blr",
+          "blore",
+          "bangalore"
+        ]
+      },
+      {
+        "value": "Mumbai",
+        "synonyms": [
+          "bumbai",
+          "bombay"
+        ]
+      },
+      {
+        "value": "Delhi",
+        "synonyms": [
+          "new delhi"
         ]
       }
     ]
