@@ -1167,6 +1167,42 @@
             "entity": "cuisine"
           }
         ]
+      },
+      {
+        "text": "please suggest me a restaurant in istanbul",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 34,
+            "end": 42,
+            "value": "istanbul",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "istanbul",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "istanbul",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "in istanbul",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "istanbul",
+            "entity": "city"
+          }
+        ]
       }
     ]
   }

@@ -10,8 +10,7 @@ import json
 # Import smtplib for the actual sending function
 import smtplib
 
-# Import the email modules we'll need
-from email.message import EmailMessage
+import csv
 
 
 class ActionSearchRestaurants(Action):
@@ -68,28 +67,26 @@ class ActionSendMail(Action):
 	def name(self):
 		return 'action_send_mail'
 
-	SERVER = smtplib.SMTP('smtp.gmail.com', 25)  # 587)
-	SERVER.connect("smtp.gmail.com", 587)
-	SERVER.ehlo()
-	SERVER.starttls()
-	SERVER.ehlo()
+	def __init__(self):
 
-	# Next, log in to the server
-	SERVER.login("user@gmail.com", "password")
+		self.SERVER = smtplib.SMTP('smtp.gmail.com', 25)  # 587)
+		self.SERVER.connect("smtp.gmail.com", 587)
+		self.SERVER.ehlo()
+		self.SERVER.starttls()
+		self.SERVER.ehlo()
 
-	FROM = 'economicviewpoint@gmail.com'
+		# Next, log in to the server
+		self.SERVER.login("economicviewpoint@gmail.com", "gzznfnmdgrkmzpsh")
 
-	TO = ["stylesense3@gmail.com"]  # must be a list
+		self.FROM = 'economicviewpoint@gmail.com'
 
-	SUBJECT = "Hello!"
-
-	TEXT = "This message was sent with Python's smtplib."
+		self.SUBJECT = "Hello!"
 
 	def run(self, dispatcher, tracker, domain):
 		# Get variables
 		mail_id = tracker.get_slot('user_mail_id')
 
-		TO = ["stylesense3@gmail.com", mail_id]  # must be a list
+		to = ["stylesense3@gmail.com", mail_id]  # must be a list
 
 		# Get variables
 		loc = tracker.get_slot('city')
@@ -97,9 +94,7 @@ class ActionSendMail(Action):
 		people = tracker.get_slot('people')
 		budget = tracker.get_slot('budget')
 
-		to = ["stylesense3@gmail.com"]
 		# Prepare actual message
-
 		message = """\
 			From: %s
 			To: %s
@@ -116,6 +111,22 @@ class ActionSendMail(Action):
 		return error
 
 
+class ActionCheckCity(Action):
+	def name(self):
+		return 'action_check_city'
+
+	def __init__(self):
+		with open('data/cities.csv', 'r') as csvfile:
+			reader = csv.reader(csvfile, delimiter=',')
+
+			self.valid_cities = [row for row in reader][0]
+
+	def run(self, dispatcher, tracker, domain):
+		city = tracker.get_slot('city')
+
+		return [SlotSet('valid_city', city in self.valid_cities)]
+
+
 if __name__ == '__main__':
-	a = ActionSendMail()
+	a = ActionCheckCity()
 	a.run('','','')

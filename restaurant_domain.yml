@@ -20,14 +20,13 @@ slots:
       - low
       - medium
       - high
-  send_mail:
-    type: bool
   user_mail_id:
     type: text
+  valid_city:
+    type: bool
 
 entities:
-- city
-- cuisine
+- send_mail
 
 intents:
  - greet
@@ -70,6 +69,8 @@ templates:
     - "In which city?"
     - "City please?"
     - "Please let know in which city?"
+  utter_say_invalid_city:
+    - "We Apologize, we don't provide our service in that area. Please try some other city"
   utter_ask_number_people:
     - "For how many people?"
   utter_ask_location:
@@ -96,8 +97,10 @@ actions:
 - utter_ask_location
 - utter_ask_cuisine
 - utter_ask_city
+- utter_say_invalid_city
 - utter_ask_number_people
 - utter_ask_budget
+- actions.ActionCheckCity
 - actions.ActionSearchRestaurants
 - actions.ActionSendMail
 - utter_ask_send_mail
