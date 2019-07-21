@@ -36,6 +36,27 @@
           "vegg",
           "veg"
         ]
+      },
+      {
+        "value": "Bengaluru",
+        "synonyms" : [
+          "blr",
+          "blore",
+          "bangalore"
+        ]
+      },
+      {
+        "value": "Mumbai",
+        "synonyms" : [
+          "bumbai",
+          "bombay"
+        ]
+      },
+      {
+        "value": "Delhi",
+        "synonyms" : [
+          "new delhi"
+        ]
       }
     ],
     "common_examples": [
