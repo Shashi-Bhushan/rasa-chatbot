@@ -824,3 +824,82 @@
     - utter_goodbye
     - export
 
+## Generated Story -824676591816796973
+* greet
+    - utter_greet
+* restaurant_search{"people": "2", "city": "Delhi", "budget": "medium", "CARDINAL": "two"}
+    - slot{"budget": "medium"}
+    - slot{"city": "Delhi"}
+    - slot{"people": "2"}
+    - utter_ask_cuisine
+* restaurant_search{"cuisine": "South Indian"}
+    - slot{"cuisine": "South Indian"}
+    - action_restaurant
+    - slot{"location": null}
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
+    - utter_goodbye
+    - export
+
+## Generated Story -824676591816696974
+* greet
+    - utter_greet
+* restaurant_search{"people": "2", "city": "Delhi", "cuisine": "South Indian", "CARDINAL": "two"}
+    - slot{"city": "Delhi"}
+    - slot{"people": "2"}
+    - slot{"cuisine": "South Indian"}
+    - utter_ask_budget
+* restaurant_search{"budget": "medium"}
+    - slot{"budget": "medium"}
+    - action_restaurant
+    - slot{"location": null}
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
+    - utter_goodbye
+    - export
+    
+## Generated Story -824676591816696974
+* greet
+    - utter_greet
+* restaurant_search{"city": "Delhi", "budget": "medium", "cuisine": "South Indian"}
+    - slot{"city": "Delhi"}
+    - slot{"budget": "medium"}
+    - slot{"cuisine": "South Indian"}
+    - utter_ask_number_people
+* restaurant_search{"people": "2", "CARDINAL": "two"}
+    - slot{"people": "2"}
+    - action_restaurant
+    - slot{"location": null}
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"send_mail": "true"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - utter_mail_sent
+    - utter_goodbye
+    - export
+    
+## Generated Story -6637869999633826455
+* greet
+    - utter_greet
+* restaurant_search{"people": "2", "city": "Delhi", "cuisine": "South Indian", "CARDINAL": "2"}
+    - slot{"city": "Delhi"}
+    - slot{"cuisine": "South Indian"}
+    - slot{"people": "2"}
+    - utter_ask_budget
+* restaurant_search{"budget": "low", "CARDINAL": "less than 300"}
+    - slot{"budget": "low"}
+    - action_restaurant
+    - slot{"location": null}
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true"}
+    - slot{"send_mail": "true"}
+    - utter_mail_sent
+    - utter_goodbye
+    - export
+

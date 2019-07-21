@@ -5,7 +5,7 @@
     },
     {
         "name": "user_mail_id",
-        "pattern": "[a-zA-Z0-9]+@[a-zA-Z0-9]+.com"
+        "pattern": "[a-zA-Z0-9]+@[a-zA-Z]+.com"
     },
     {
         "name": "zipcode",
