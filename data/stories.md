@@ -4628,3 +4628,27 @@
     - utter_goodbye
     - export
 
+## Generated Story 1531447204705227267
+* greet
+    - utter_greet
+* restaurant_search{"city": "guwahati", "cuisine": "South Indian"}
+    - slot{"city": "guwahati"}
+    - slot{"cuisine": "South Indian"}
+    - action_check_city
+    - slot{"valid_city": true}
+    - utter_ask_number_people
+* restaurant_search{"people": "3", "CARDINAL": "3"}
+    - slot{"people": "3"}
+    - utter_ask_budget
+* restaurant_search{"budget": "medium"}
+    - slot{"budget": "medium"}
+    - action_restaurant
+    - slot{"location": "guwahati"}
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
+    - utter_mail_sent
+    - utter_goodbye
+    - export
+
