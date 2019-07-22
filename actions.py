@@ -80,13 +80,16 @@ class ActionSendMail(Action):
 
 		self.FROM = 'economicviewpoint@gmail.com'
 
-		self.SUBJECT = "Hello!"
+		self.SUBJECT = "Restaurant List!"
 
 	def run(self, dispatcher, tracker, domain):
 		# Get variables
 		mail_id = tracker.get_slot('user_mail_id')
 
-		to = ["stylesense3@gmail.com", mail_id]  # must be a list
+		to = ["stylesense3@gmail.com"]  # must be a list
+
+		if mail_id is not None:
+			to.append(mail_id)
 
 		# Get variables
 		loc = tracker.get_slot('city')
@@ -100,7 +103,8 @@ class ActionSendMail(Action):
 			To: %s
 			Subject: %s
 
-			Sent to Subjects : 
+			Hi
+			Here's the Restaurant list you asked for : 
 			%s
 			""" % (self.FROM, ", ".join(to), self.SUBJECT, to, ActionSearchRestaurants.get_zomato_response(loc, cuisine, people, budget))
 
@@ -116,15 +120,15 @@ class ActionCheckCity(Action):
 		return 'action_check_city'
 
 	def __init__(self):
-		with open('data/cities.csv', 'r') as csvfile:
+		with open('data/cities.csv', 'r', encoding="utf-8") as csvfile:
 			reader = csv.reader(csvfile, delimiter=',')
 
 			self.valid_cities = [row for row in reader][0]
 
 	def run(self, dispatcher, tracker, domain):
-		city = tracker.get_slot('city')
+		slot_city = tracker.get_slot('city')
 
-		return [SlotSet('valid_city', city in self.valid_cities)]
+		return [SlotSet('valid_city', any([city.lower() == slot_city.lower() for city in self.valid_cities]))]
 
 
 if __name__ == '__main__':

@@ -2275,12 +2275,37 @@
 * restaurant_search{"cuisine": "South Indian"}
     - slot{"cuisine": "South Indian"}
     - utter_ask_number_people
-* restaurant_search{"CARDINAL": "2"}
+* restaurant_search{"people": "2"}
+    - slot{"people": "2"}
     - utter_ask_budget
 * restaurant_search{"budget": "low"}
     - slot{"budget": "low"}
     - action_restaurant
     - slot{"location": "Delhi"}
+    - utter_ask_send_mail
+* mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
+    - slot{"user_mail_id": "abc@xyz.com"}
+    - action_send_mail
+    - utter_mail_sent
+    - utter_goodbye
+    - export
+
+## Generated Story -2118088743085660980
+* greet
+    - utter_greet
+* restaurant_search{"cuisine": "American", "city": "agra"}
+    - slot{"city": "agra"}
+    - slot{"cuisine": "American"}
+    - action_check_city
+    - slot{"valid_city": true}
+    - utter_ask_number_people
+* restaurant_search{"people": "3"}
+    - slot{"people": "3"}
+    - utter_ask_budget
+* restaurant_search{"budget": "low"}
+    - slot{"budget": "low"}
+    - action_restaurant
+    - slot{"location": "agra"}
     - utter_ask_send_mail
 * mail_send{"send_mail": "true", "user_mail_id": "abc@xyz.com"}
     - slot{"user_mail_id": "abc@xyz.com"}
