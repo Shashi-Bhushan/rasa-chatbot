@@ -6453,6 +6453,112 @@
             "entity": "people"
           }
         ]
+      },
+      {
+        "text": "No, not required",
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "false",
+            "entity": "send_mail"
+          }
+        ]
+      },
+      {
+        "text": "No thanks",
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "false",
+            "entity": "send_mail"
+          }
+        ]
+      },
+      {
+        "text": "not required",
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "false",
+            "entity": "send_mail"
+          }
+        ]
+      },
+      {
+        "text": "nope",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "false",
+            "entity": "send_mail"
+          }
+        ]
+      },
+      {
+        "text": "nah, thanks",
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "false",
+            "entity": "send_mail"
+          }
+        ]
+      },
+      {
+        "text": "no no that's fine",
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "false",
+            "entity": "send_mail"
+          }
+        ]
+      },
+      {
+        "text": "no no thanks but no",
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "false",
+            "entity": "send_mail"
+          }
+        ]
+      },
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "no thanks",
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "false",
+            "entity": "send_mail"
+          }
+        ]
       }
     ]
   }

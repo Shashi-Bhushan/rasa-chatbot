@@ -40,9 +40,9 @@ intents:
 
 templates:
   utter_greet:
-    - "hey there! How may i help you"
-    - "Hi, How can I help you!"
-    - "Hey, How is it going. How May I help you Today"
+    - "hey there! How may i help you."
+    - "Hi, How can I help you."
+    - "Hey, How is it going. How May I help you Today."
   utter_goodbye:
     - "goodbye :("
     - "Bye-bye"
@@ -87,7 +87,11 @@ templates:
   utter_ask_send_mail:
     - "Should I send you details of all the restaurants on email?"
   utter_mail_sent:
-    - "I've sent a mail on {user_mail_id}."
+    - "I've sent the mail."
+    - "Sent, Bon Appetit!"
+    - "Sent."
+  utter_mail_not_sent:
+    - "Okay. Bon Appetit!"
 
 actions:
 - utter_greet
@@ -105,3 +109,4 @@ actions:
 - actions.ActionSendMail
 - utter_ask_send_mail
 - utter_mail_sent
+- utter_mail_not_sent

@@ -6254,6 +6254,218 @@
           }
         ],
         "text": "suggest me some good south american food restaurant"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 5,
+            "value": "2",
+            "entity": "people"
+          }
+        ],
+        "text": "for 2 people"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "2",
+            "entity": "people"
+          }
+        ],
+        "text": "2 people please"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "1",
+            "entity": "people"
+          }
+        ],
+        "text": "me only"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "1",
+            "entity": "people"
+          }
+        ],
+        "text": "it's only me"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "3",
+            "entity": "people"
+          }
+        ],
+        "text": "3 people please"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "3",
+            "entity": "people"
+          }
+        ],
+        "text": "3 only"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 6,
+            "value": "3",
+            "entity": "people"
+          }
+        ],
+        "text": "only 3"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "4",
+            "entity": "people"
+          }
+        ],
+        "text": "4 people please"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "4",
+            "entity": "people"
+          }
+        ],
+        "text": "4 only"
+      },
+      {
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "false",
+            "entity": "send_mail"
+          }
+        ],
+        "text": "No, not required"
+      },
+      {
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "false",
+            "entity": "send_mail"
+          }
+        ],
+        "text": "No thanks"
+      },
+      {
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "false",
+            "entity": "send_mail"
+          }
+        ],
+        "text": "not required"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "false",
+            "entity": "send_mail"
+          }
+        ],
+        "text": "nope"
+      },
+      {
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "false",
+            "entity": "send_mail"
+          }
+        ],
+        "text": "nah, thanks"
+      },
+      {
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "false",
+            "entity": "send_mail"
+          }
+        ],
+        "text": "no no that's fine"
+      },
+      {
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "false",
+            "entity": "send_mail"
+          }
+        ],
+        "text": "no no thanks but no"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "mail_send",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "false",
+            "entity": "send_mail"
+          }
+        ],
+        "text": "no thanks"
       }
     ],
     "regex_features": [
